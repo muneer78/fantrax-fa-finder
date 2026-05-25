@@ -56,6 +56,9 @@ import pandas as pd
 import pybaseball
 import requests
 import statsapi
+from dotenv import load_dotenv
+
+load_dotenv()  # loads .env from project dir (never committed to git)
 
 warnings.filterwarnings("ignore")   # suppress pybaseball download messages
 
@@ -344,7 +347,7 @@ def add_zscores(df: pd.DataFrame, scoring: dict[str, float]) -> pd.DataFrame:
     df = df.drop(columns=z_cols)
 
     return df.sort_values(
-        ["total-zscore"], ascending=[False]
+        ["fpts", "total-zscore"], ascending=[False, False]
     ).reset_index(drop=True)
 
 
@@ -443,7 +446,7 @@ def join_fa_to_stats(
         how="inner",
     )
     return merged.sort_values(
-        ["total-zscore"], ascending=[False]
+        ["fpts", "total-zscore"], ascending=[False, False]
     ).reset_index(drop=True)
 
 
@@ -519,7 +522,7 @@ def main() -> None:
                     help="Hitting lookback window in days (default: 14)")
     ap.add_argument("--days-p",   type=int, default=14, dest="days_p",
                     help="Pitching lookback window in days (default: 14)")
-    ap.add_argument("--out",      default="free_agents.csv")
+    ap.add_argument("--out", default=os.environ.get("OUTPUT_PATH", "free_agents_fantrax.csv"))
     ap.add_argument("--top",      type=int, default=20)
     args = ap.parse_args()
 
