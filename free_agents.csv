@@ -1,0 +1,90 @@
+HITTERS — Last 7 Days
+Name,Team,Pos,PA,FPts,total-zscore
+"Gelof, Zack",ATH,"OF,2B,UT,3B",32,23.5,4.69
+"Cortes, Carlos",ATH,"OF,UT",27,20.0,2.94
+"Foscue, Justin",TEX,"1B,2B,UT",27,25.0,2.64
+"Bell, Josh",MIN,"1B,UT",26,24.5,2.47
+"Larnach, Trevor",MIN,"OF,UT",23,17.5,2.0
+"Busch, Michael",CHC,"1B,UT",25,16.5,1.75
+"Burger, Jake",TEX,"1B,UT",27,23.5,1.46
+"Schanuel, Nolan",LAA,"1B,UT",25,18.5,1.31
+"Hernaiz, Darell",ATH,"UT,3B,SS",22,13.5,1.24
+"Reynolds, Bryan",PIT,"OF,UT",24,16.5,1.05
+"Chapman, Matt",SF,"UT,3B",24,17.5,0.52
+"Benge, Carson",NYM,"OF,UT",34,18.0,0.44
+"Johnston, Troy",COL,"OF,1B,UT",23,15.0,-0.05
+"Bohm, Alec",PHI,"UT,3B",23,18.0,-0.21
+"Kwan, Steven",CLE,"OF,UT",26,14.0,-0.22
+"Norby, Connor",MIA,"1B,UT,3B",22,9.5,-0.35
+"Sogard, Nick",BOS,"1B,UT,3B",24,14.5,-0.62
+"Jung, Josh",TEX,"UT,3B",22,13.5,-0.63
+"Stowers, Kyle",MIA,"OF,UT",23,17.5,-0.7
+"Bader, Harrison",SF,"OF,UT",23,16.5,-1.4
+
+
+HITTERS — Last 14 Days
+Name,Team,Pos,PA,FPts,total-zscore
+"Burger, Jake",TEX,"1B,UT",49,55.0,5.05
+"Benge, Carson",NYM,"OF,UT",63,41.5,3.33
+"Gelof, Zack",ATH,"OF,2B,UT,3B",56,40.0,3.15
+"Mullins, Cedric",TB,"OF,UT",41,34.0,2.06
+"Busch, Michael",CHC,"1B,UT",53,34.0,2.0
+"Reynolds, Bryan",PIT,"OF,UT",49,32.5,1.29
+"Martin, Austin",MIN,"OF,UT",49,32.5,0.85
+"Walls, Taylor",TB,"UT,SS",43,33.5,0.74
+"Johnston, Troy",COL,"OF,1B,UT",42,29.0,0.12
+"Kwan, Steven",CLE,"OF,UT",49,26.5,0.09
+"Bader, Harrison",SF,"OF,UT",44,39.5,0.09
+"Muncy, Max",ATH,"UT,2B,3B",42,28.5,-0.1
+"Meidroth, Chase",CHW,"UT,2B,SS",48,30.5,-0.18
+"Rafaela, Ceddanne",BOS,"OF,UT,2B",44,30.0,-0.37
+"McLain, Matt",CIN,"2B,UT",44,31.0,-0.65
+"Frelick, Sal",MIL,"OF,UT",46,27.0,-0.81
+"Hernaiz, Darell",ATH,"UT,3B,SS",41,24.0,-1.02
+"Benintendi, Andrew",CHW,"OF,UT",41,27.5,-1.07
+"Norby, Connor",MIA,"1B,UT,3B",43,23.0,-1.09
+"Grisham, Trent",NYY,"OF,UT",41,28.0,-1.1
+
+
+PITCHERS — Last 14 Days
+Name,Team,Pos,IP,FPts,total-zscore
+"Holmes, Grant",ATL,SP,15.0,34.5,1.47
+"Cecconi, Slade",CLE,SP,16.3,35.0,1.23
+"Urena, Walbert",LAA,SP,16.0,36.0,0.45
+"Cavalli, Cade",WSH,SP,13.3,31.5,0.28
+"Houser, Adrian",SF,SP,16.3,36.0,0.26
+"Mikolas, Miles",WSH,"SP,RP",14.0,26.5,0.02
+"Severino, Luis",ATH,SP,13.0,23.5,-0.21
+"Gallen, Zac",ARI,SP,16.0,32.5,-0.53
+"Young, Brandon",BAL,SP,15.7,28.0,-0.53
+"Painter, Andrew",PHI,SP,17.3,32.0,-1.03
+"Baz, Shane",BAL,SP,13.0,24.0,-1.16
+"Corbin, Patrick",TOR,SP,14.3,22.5,-1.39
+"Lopez, Jacob",ATH,SP,13.3,17.5,-3.13
+"Bello, Brayan",BOS,"SP,RP",16.3,19.5,-3.42
+"Sproat, Brandon",MIL,SP,14.0,21.0,-3.78
+"McDonald, Trevor",SF,SP,15.7,21.5,-4.83
+"Springs, Jeffrey",ATH,SP,17.3,20.5,-4.88
+"Flaherty, Jack",DET,SP,13.0,7.5,-6.26
+"Rea, Colin",CHC,"SP,RP",16.0,13.5,-6.47
+"Lorenzen, Michael",COL,SP,14.7,4.5,-7.9
+
+
+PITCHERS — Last 30 Days
+Name,Team,Pos,IP,FPts,total-zscore
+"McGreevy, Michael",STL,SP,29.0,70.0,2.47
+"Cecconi, Slade",CLE,SP,32.7,60.5,-0.29
+"Urena, Walbert",LAA,SP,30.7,62.0,-1.21
+"Severino, Luis",ATH,SP,30.3,55.0,-1.22
+"Quintana, Jose",COL,SP,28.0,46.0,-2.69
+"Corbin, Patrick",TOR,SP,29.7,46.0,-3.46
+"Baz, Shane",BAL,SP,29.0,44.5,-3.75
+"Cavalli, Cade",WSH,SP,29.0,55.5,-3.92
+"Junk, Janson",MIA,"SP,RP",28.0,35.5,-4.38
+"Gallen, Zac",ARI,SP,28.7,42.0,-4.9
+"Burrows, Mike",HOU,SP,29.7,40.5,-5.53
+"May, Dustin",STL,SP,29.3,38.0,-6.02
+"Rea, Colin",CHC,"SP,RP",30.0,30.0,-6.87
+"Springs, Jeffrey",ATH,SP,31.7,36.5,-6.96
+"Ray, Robbie",SF,SP,30.3,30.0,-7.01
+"Kochanowicz, Jack",LAA,SP,28.3,27.0,-8.47

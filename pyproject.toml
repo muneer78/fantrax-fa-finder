@@ -1,0 +1,15 @@
+[project]
+name = "fantrax"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fantraxapi>=1.0.1",
+    "mlb-statsapi>=1.9.0",
+    "pandas>=3.0.3",
+    "pybaseball>=2.2.7",
+    "requests>=2.32.5",
+    "selenium>=4.44.0",
+    "webdriver-manager>=4.1.1",
+]
